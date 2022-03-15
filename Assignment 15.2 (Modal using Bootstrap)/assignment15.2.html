@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assignment15.2.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card mt-5">
+            <div class="card-header text-center border m-1">
+                <h3>Heading</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corrupti, deserunt iusto saepe animi enim quisquam. Necessitatibus placeat ipsum ea.</p>
+            </div>
+            <div class="card-body">
+                <div class="card-group justify-content-around">
+                        <!--card-1-->
+                        <div class="col-sm-4">
+                            <div class="card rounded">
+                                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt=""
+                                class="first border rounded m-1">
+                                <div class="card-body">
+                                    <h6>Brand</h6>
+                                    <h6>Model</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#dialog1">
+                                        specifications
+                                    </button>
+                                </div>
+                                <!-- modal -->
+                                <div class="modal" id="dialog1">
+                                    <div class="modal-dialog bg-warning">
+                                        <div class="modal-header">
+                                            Model no
+                                            <!-- close button -->
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            
+                                                <div class="col-sm-4">
+                                                    <img src="https://img.pixelz.com/blog/using-product-images-on-ecommerce-site/F_Purse1_drop.jpg?w=1000" alt=""
+                                                    class="w-100">
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <h6>Price : xxxxxxxx</h6>
+                                                    <h6>Camera : xxxxxxxx</h6>
+                                                    <h6>Battery : xxxxxxxx</h6>
+                                                </div>
+                                            
+                                        </div>
+                                        <div class="modal-footer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--card-2-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZHVjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt=""
+                                class="second border rounded m-1">
+                                <div class="card-body">
+                                    <h6>Brand</h6>
+                                    <h6>Model</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#dialog2">specifications</button>
+                                </div>
+                                <!-- modal -->
+                                <div class="modal" id="dialog2">
+                                    <div class="modal-dialog bg-info">
+                                        <div class="modal-header">
+                                            Model no
+                                            <!-- close button -->
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            
+                                                <div class="col-sm-4">
+                                                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDQ0NDQ8NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRMYHSggGBolGxUVITEhJSktLi4wFx8zODMsNygtLisBCgoKDg0OFRAPFS0fFx0tLSstKy0rKysrLSstLS0rKy0tLi0tLSstLS0rLS0rLS0rKy0tLSstLS0rKy0rLS0rK//AABEIALwBDAMBEQACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIEAwUG/8QAOxAAAgEDAAcFBAgFBQAAAAAAAAECAxESBBMhMVFhcQUGIqHBFDJBsTNCUmJygZHhFSPR0vBDc4KSsv/EABoBAQEAAwEBAAAAAAAAAAAAAAABAgMFBAb/xAArEQEAAgEEAgEDAwQDAAAAAAAAAQIRAwQSMSFBEyJRcTJS8AVCYaEjgeH/2gAMAwEAAhEDEQA/APfEqNJAaxCKohW1ACqIRVEDWIFxAuIGsQGIyDiBVEkjSRAcS5BIGVSA1iBMQFhAOIyJYZDEZFxGRcQJiCTEBiBmxRHEEpiDCqIIMQOJRCriBpRA2ogaUQjWJMiqBci4kkVRINKIFsAUQNYAFEBYDVgJYBiBrEA4gTEBYBiBcQqqIQxAYgMQI4gRxAjiBMQGIFsBxKBcq0ojI2ogXEDaiAcSCpBFxCqogaxCGIGkgLYAkBLEyBQA0kAsAAWAWAlgNWAWAqRAsULASwEcQJYCOIDEC4gclkFNgGkwNXQGk0BHICqSAqaAuSAuSAuSAmaAuaCGSIK5oYGdYgpmijSqIIusRA1iAmtQB1UUTWoBrUQHVRVaVVEDXIDOuRQ16AOugMqugD0hAZ9oQQ9oQHztay4VNaxgXWsYDWMYGtaxgTWMYDWMYF1jGBNYxgXWsBrWUNYwGsYDWMgZvmPCxEy2qVR7oT/6sx5V+7Z8Op+0lCa3xmv+LHKs+0nSvHcPPNmXj7sMT7M3xCGbGBcgJmUXNkDMBkBcxgTMBmUXIBcCNgS4C4C4HhcCpgAFwLcBcBcBcC3AXAXAXAXA9tFo5yte0Vtk+CNWrqcIera7b5reeoetXtzRdH8Kkm18KcdZN/nu8zy/Xecz07caOnpR4hxz77UVupV5dakIeW0y+FOf8w3T78UfjQrLpUhL0RPhlM/5/wBf+veHe7Qp+9GtH8VKMvlIcLR7TjE94/n/AE9P4t2dP/UjF/ehOD8kWJ1I9tdttS3dYZl7LL6PSqXSU1bzsZxrzHcNF/6fE/p8OWW/Y4yXGLyi+aZ6YnMZczV07adprZStYAAoAAAAIABQIAAAc4BAW4C4FuAAoABcAAAAAPn9saS408E7Zu76I82p5u7/APTa8NGbe5fmqs7GdV1LeXhcyasy1kReRrEXCfJEe0ddcScZJ16x7e1DOTtGnVk+UJfMTpyRvaVl+o7HUlSxqRcJRk/DK10nu9TOsY8Odur/ACW5+nfcyeUuBUwKAAALgUCAVAAIBQOYABQAACgLgAKAAAAAH57tat4229iVkebHmX0ejNa6FYy+MlKpJ4Rcunw6s3Vq8Grr1z266XZU3704w5JOT9DPjDyzuZ9PZ9mUY/STk+slHySuMMJ1b28Mv2eHuwUn95X/APTGYZV0dWx/ELe5GEekf6WMebdXZzP6rM/xCq/ryXSy+SuYzaW6mz0/7sy+t2DWcpVLttuKbu3J7+fUtJz21b7Srp8eEeH2TNzwCgAAGgAACgAIBQIBzgAAAABQAAC3AAQC3AXA+H2noFNzdR34uKdouVxENvyWiMZcqrRgrJblsjHh6FmYhjSlrz9MZc9bT5PYnZcI/wBxhNvs9tNrEfr8uWVV7dtv8+LMe3piK0jx4hzvSFe0U5y4RVzOKT78NFt1WJxX6pbxm/ecYcl45f0J9KxGtbzOKw9KStsvJ85W9DGZy9GnWa9zl97u+7TkuMfJNEp2076M0iX3Ta5SgAKgKBQCAAAAACgCZHKUUAAAAUAAAAAAACSdk3wTCw/Pdqabfww3X2y+H5cSTbHT06e3m/cYq+VKV9m5b+r4tmDoVrFYxWHPX0hR2b3wMq0mzz6+5rp+PbxpU5VfFN40+Xx6I2TMU6ePTpq7meVpxV2Qioq0ViuW99X8TTaZnt09PSrpxisLYNn4SO8iQ+33fles/wDbfzRa9tG8n/jj8v0JscpQKAQFAoAgoEKKBAKQAOYoAAAFAALAAAACAUDy0uTVObWxqLa6kt026E41KvyFabk7ybb4s1Q7dpcWl18di3vyRupXPbm7vc/H9Ne5eGiUM25Svint+8+Bne3GPDxbXQnWtyt0+i/lsXBI0fl3IiIjEdMVKiirydvmWK5a9TVpTzaWVlLb9HF7m1eb6IuIjvy1RbU1PMRxhqMUtiu+Lbu2YzOW6lOMd5fb7tL+bPlD1Qr207z9EP0djY5a2AuIBIC2ILYBYC4gLEDEouIDEirYDkMkQAAAoAABAKAAAAM1I3jJcYteRJZVnExL8XLfY1u5npwafTbnBLfJYrrf9zdpz4lyt/pzbUpj27YRUUorcvN/FmqZzOXR09ONOsVj05tI0q3hhtlu6GytM+ZeTcbzjPDT8y3R0fHxT8VTntUf3Ja/qGWhtv79XzZ7Xvv/AFNb2Zz2lyo+73Y9+q/uxXmK9vJvZ+mH6A2Oc0gKQAKAIAG0FAggqgAAHEZIAAAAAAAoAAAAAAPx+nQxrVI8Jy+Zrl2tK2aRLwsrptXavbkTPpnalZmLT6cWmaTvjHo36I3Up7cvd7vulGtBoWSm14n7vJcSalvUMtlt8RGpbv06jU6Tz1l24w2tb39WPVmWPu0W1szxpGZ/00lzbfHcvyRGdImO5y/Q92F9K/wL5lq8u9nxV94zeAQGiABSAgqgUBcCgEwKAA4jJAAAAAUAAAAAAAAB+Y7dhavJ/aSl5GE9uptrZ03z96MXp7iYh8uhQvUxfwby6L/PM9M2xXMOBpaE31uE+u30nJdPQ8/cu7NorDmzdV4xvGC96XI28YrGZ7c+dW2vbhTxX3LpjFJWirRXw9XzNUzM9vdSlaRivSIM4fpe7Mf5dR8Zpfov3LV4N7P1Vh9lGTxKmBbgUKpAKKQAKgKBLAUAByGSAAAAAAAKBAKBAAAD4XeWntpz4qUfUws920t3D4cWYzD21nEq4JNyt4nZN8kXlPR8dYtN/cvn6TWc3jHde34mb6VxGZcjdbidS3CnTtpU1CKiurfFmm05l09DSjSpEe2rkbRAh+p7uwtQvxnJ/Iyr0527t9b6hk8ipAUKpAIKihcgXAqYFQRQqALAchkgAAAUAAAXAAAKBAKB83t+llQb+xJS9PUxs9G2nF/y/KsxdGW1tVmT/LOPqrhx6Jo9qkr/AFN3Nvd5G6944/ly9rtprrTy6q7DTh1gqIB+v7EjbR6fO782ZV6cncznUl32K0okBsAEUigFQAAgLcCpgAAHJYyRAAAABQACwAABQIBbgeOlRU6c4P60WiYZ0ti0S/FSW23BtGDqROY8EWRnWcN3I2eEZTJcrGZZbDGbRHb9p2fJKjTXCETOHJ1JzaZdSkGCpgaAACCgVAAFgAFAJAasBxmQBECqEAAAAAAAGBhsK8qlSwHzdOrys7biwPzFalJN2bMsQvO9epeXj4+Q4Qvz6n3PH9p/oOMfY+fV/cYz+0xxhPm1f3NKlJ/Wl+oxCc7/ALnRo+iXau2+rHgzae5fqtCdopcDCVw7oSIj2jIDdwNICkACgAKAAAaAAcZRCoAAqgAgAAAAIB5yA8qkQrj0ilcyWHzami8i5MPGWiBMM+xlymBaGTK4ekNDC4dlDRdu4mVfVoU9hikuiMSI9YxA1YDSApBQKgAAC2AAAFwOUyAAEQCgAKAQACMCAZaAxJBXlOAHhKiVkw6Jch7OhkVUCZG1R4AesKZB0QREesQjYFA0gKAIFwKAQFAJgVgS4RzGQgUCAAKoRAKwIAAgBgZaCsSQHm0FSwExCriBtIDaQRuKA9ERGkAuBcgNKQFIIUVMgoFAICgSwHLcoFAAQUogQbAAEAYVAiMKgGWBgKlgFgNICpAaQG0BtMiNICgWwEsBoABSClAgALgUDlKBQAAVBBoCWAALBQCBBhUAywMtASwDEKtgLYI1EDSA2iDSAoFTANgAKAYFAoBMgpRCDmKBUAI2BUAuAYAAAYUCIwqAQCICAQKoFQRoKqCNkWWkEANICgABAKKAApAKNIg//9k="
+                                                     alt=""
+                                                    class="w-100">
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <h6>Price : xxxxxxxx</h6>
+                                                    <h6>Camera : xxxxxxxx</h6>
+                                                    <h6>Battery : xxxxxxxx</h6>
+                                                </div>
+                                            
+                                        </div>
+                                        <div class="modal-footer"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--card-3-->
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <img src="https://images.pexels.com/photos/821651/pexels-photo-821651.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                                class="third border rounded m-1">
+                                <div class="card-body">
+                                    <h6>Brand</h6>
+                                    <h6>Model</h6>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#dialog3">specifications</button>
+                                </div>
+                                <!-- modal -->
+                                <div class="modal" id="dialog3">
+                                    <div class="modal-dialog bg-info">
+                                        <div class="modal-header">
+                                            Model no
+                                            <!-- close button -->
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body row">
+                                            
+                                                <div class="col-sm-4">
+                                                    <img src="data:image/jpeg;base64,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" 
+                                                    alt=""
+                                                    class="w-100">
+                                                </div>
+                                                <div class="col-sm-8">
+                                                    <h6>Price : xxxxxxxx</h6>
+                                                    <h6>Camera : xxxxxxxx</h6>
+                                                    <h6>Battery : xxxxxxxx</h6>
+                                                </div>
+                                            
+                                        </div>
+                                        <div class="modal-footer"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
