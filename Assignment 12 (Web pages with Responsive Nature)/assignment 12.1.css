@@ -1,0 +1,1079 @@
+/* applying effects for nrml laptop screen myne */
+
+/* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 4rem;    
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 5rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 15rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 8rem;
+    margin-top: -12rem;
+    padding-top: 8rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 11rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* -------------------------------------------------------------- */
+
+/* applying effects based on view portdimensions of different devices */
+
+@media (max-width:280px) {
+    /* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 2.5rem;  
+    font-size: small;  
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 3rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 12rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.8rem;
+    margin-left: 2.5rem;
+    margin-top: 0rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 5rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: -2rem;
+    padding-top: 3rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 9rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 15rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1rem;
+    font-size: smaller;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 15rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1rem;
+    font-size: smaller;
+    margin-top: 0.5rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 15rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1rem;
+    font-size: smaller;
+    margin-top: 0.5rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+
+@media (width:320px) {
+    /* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 2rem;  
+    font-size: 1rem;  
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 2rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 1.8rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 1.8rem;
+    margin-top: 0rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 5rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: -2rem;
+    padding-top: 3rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8.5rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    margin-left: 0.08rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    margin-left: 0.08rem;
+    margin-top: 0.3rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    margin-left: 0.08rem;
+    margin-top: 0.3rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+
+@media (min-width:321px) and (max-width:480px) {
+    /* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 3.5rem;  
+    font-size: 1rem;  
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 3rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 3.5rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 18rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 3.5rem;
+    margin-top: 0rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 5rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: -1.5rem;
+    padding-top: 3rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 9.5rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+    margin-top: 0.1rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+    margin-top: 0.1rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    /* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1.7rem;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 4rem; 
+    font-size: 1rem;   
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 3rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-left: 4rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 4rem;
+    margin-top: 0rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 8rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: -3rem;
+    padding-top: 4rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 12rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 2rem;
+    margin-left: 1.1rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 2rem;
+    margin-left: 1.1rem;
+    margin-top: 0.3rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 2rem;
+    margin-left: 1.1rem;
+    margin-top: 0.3rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+
+/* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 5rem;
+    font-size: 1rem;    
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 5rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 8rem;
+    float: right;
+    border-radius: 50%;
+    margin-right:3rem;
+    margin-top: -7rem;
+    padding-top: 4rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 6.2rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 17rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1.5rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 17rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1.5rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 17rem;
+    background-color: rgb(90, 25, 25);
+    padding: 1.5rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+
+@media (width:1024px) {
+
+    /* applying bg color and flex for header */
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        color: red;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    /* applying bg color for body */
+    body{
+        background-color: red;
+    }
+    
+    /* applying margin for heading */
+    .heading{
+        margin-left: 5rem;
+        font-size: 1.7rem;    
+    }
+    
+    /* applying effects for middle content */
+    /* applying color for middle content */
+    .middle{
+        color: white;
+        margin-top: 4rem;
+    }
+    /* applying margin , font family and size for h1 element */
+    .head{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 2rem;
+        margin-left: 5rem;
+    }
+    
+    /* applying margin for para */
+    .para{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 2rem;
+        margin-left: 5rem;
+        margin-top: -1rem;
+    }
+    
+    /* applying effects for image */
+    .image{
+        width: 100%;
+        max-width: 13rem;
+        float: right;
+        border-radius: 50%;
+        margin-right:3rem;
+        margin-top: -4rem;
+        padding-top: 4rem;
+    }
+    
+    /* applying flex and margin for whole flex box */
+    .flexbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15rem;
+        color: white;
+    }
+    
+    /* applying effects for box 1 */
+    .box1{
+        width: 77rem;
+        background-color: rgb(90, 25, 25);
+        padding: 4.5rem;
+        font-size: 2rem;
+        margin: 0.5rem;
+    }
+    
+    /* applying font family for heading of box1 */
+    .hd1{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    /* applying font family for para of box1 */
+    .p1{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    /* applying effects for box 1 */
+    .box2{
+        width: 77rem;
+        background-color: rgb(90, 25, 25);
+        padding: 4.5rem;
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        margin: 0.5rem;
+    }
+    
+    /* applying font family for heading of box2 */
+    .hd2{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    /* applying fnt family for para of box2 */
+    .p2{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    /* applying effects for box 1 */
+    .box3{
+        width: 77rem;
+        background-color: rgb(90, 25, 25);
+        padding: 4.5rem;
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        margin: 0.5rem;
+    }
+    
+    /* applying font family for heading of box3 */
+    .hd3{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    /* applying fnt family for para of box3 */
+    .p3{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    }
+    
+@media (min-width:1025px) and (max-width:1280px) {
+
+/* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 5rem;  
+    font-size: 1.3rem;  
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 5rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 10rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 5rem;
+    margin-top: -9rem;
+    padding-top: 5rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 13rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 20rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 20rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 20rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}
+
+@media (min-width:1281px) {
+   
+/* applying bg color and flex for header */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* applying bg color for body */
+body{
+    background-color: red;
+}
+
+/* applying margin for heading */
+.heading{
+    margin-left: 4rem;    
+}
+
+/* applying effects for middle content */
+/* applying color for middle content */
+.middle{
+    color: white;
+    margin-top: 5rem;
+}
+/* applying margin , font family and size for h1 element */
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
+
+/* applying margin for para */
+.para{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+/* applying effects for image */
+.image{
+    width: 100%;
+    max-width: 15rem;
+    float: right;
+    border-radius: 50%;
+    margin-right: 8rem;
+    margin-top: -12rem;
+    padding-top: 8rem;
+}
+
+/* applying flex and margin for whole flex box */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 11rem;
+    color: white;
+}
+
+/* applying effects for box 1 */
+.box1{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box1 */
+.hd1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying font family for para of box1 */
+.p1{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/* applying effects for box 1 */
+.box2{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box2 */
+.hd2{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box2 */
+.p2{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* applying effects for box 1 */
+.box3{
+    width: 25rem;
+    background-color: rgb(90, 25, 25);
+    padding: 3rem;
+}
+
+/* applying font family for heading of box3 */
+.hd3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* applying fnt family for para of box3 */
+.p3{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+}

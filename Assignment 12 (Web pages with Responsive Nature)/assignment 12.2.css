@@ -1,0 +1,1261 @@
+/* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    list-style-type: none;
+    margin-top: 1.44rem;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 59rem;
+    color: rgb(7, 212, 212);
+    margin-top: 1rem;
+}
+
+.li2{
+    margin-left: 3rem;
+}
+
+.li3{
+    margin-left: 3rem;
+}
+
+.li4{
+    margin-left: 3rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 17rem;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 18rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.844rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 25rem;
+    height: 100%;
+    max-height: 10.5rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 25rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.844rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 20rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-right: 3rem;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.844rem;
+}
+
+
+
+/* applying effects based on view port size */
+@media (max-width:280px) {
+       /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    width: 28.7rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 2.5rem;
+    color: rgb(7, 212, 212);
+    margin-top: 1rem;
+}
+
+.li2{
+    margin-left: 1rem;
+}
+
+.li3{
+    margin-left: 1rem;
+}
+
+.li4{
+    margin-left: 1rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 17rem;
+    width: 460px;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 28rem;
+}
+
+/* applying effects for box1  */
+.box1{
+    width:75rem ;
+    height: 23rem;
+    background-color: rgb(253, 252, 252);
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 0.3rem;
+    margin-left: 0rem;
+}
+
+.hd1{
+    font-size: larger;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 1rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 35rem;
+    height: 100%;
+    max-height: 15rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 75rem;
+    background-color: rgb(252, 246, 246);
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+.hd2{
+    font-size: larger;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 1rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 75rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+.hd3{
+    font-size: larger;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 1rem;
+}
+}
+
+@media (width:320px) {
+     /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 0.6rem;
+    font-size: 0.65rem;
+    margin-left: 0rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.4rem;
+    margin-left: 2.6rem;
+    color: rgb(7, 212, 212);
+    margin-top: 0.80rem;
+}
+
+.li2{
+    margin-left: 0.5rem;
+}
+
+.li3{
+    margin-left: 0.5rem;
+}
+
+.li4{
+    margin-left: 0.5rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 8.5rem;
+    align-items: center;
+    padding-top: 0.7rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 5rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 15rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 2rem;
+}
+
+.hd1{
+    font-size: small;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.75rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 20rem;
+    height: 100%;
+    max-height: 9rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 15rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 2rem;
+}
+
+.hd2{
+    font-size: small;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.75rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 15rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 2rem;
+}
+
+.hd3{
+    font-size: small;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.75rem;
+}
+}
+
+@media (min-width:321px) and (max-width:480px) {
+     /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-left: 0rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 1.44rem;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.5rem;
+    margin-left: 1.7rem;
+    color: rgb(7, 212, 212);
+    margin-top: 1.1rem;
+}
+
+.li2{
+    margin-left: 0.5rem;
+}
+
+.li3{
+    margin-left: 0.5rem;
+}
+
+.li4{
+    margin-left: 0.5rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 11.5rem;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 7rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 15rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.75rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 20rem;
+    height: 100%;
+    max-height: 9rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 15rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.75rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 15rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.75rem;
+}
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    width: 32.8rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 0.55rem;
+    font-size: 0.8rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.5rem;
+    margin-left: 9rem;
+    color: rgb(7, 212, 212);
+    margin-top: 0.65rem;
+}
+
+.li2{
+    margin-left: 1rem;
+}
+
+.li3{
+    margin-left: 1rem;
+}
+
+.li4{
+    margin-left: 1rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 15rem;
+    width: 525px;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 9rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 32.8rem;
+}
+
+/* applying effects for box1  */
+.box1{
+    width:25rem ;
+    height: 18rem;
+    background-color: rgb(252, 250, 250);
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 0.3rem;
+    margin-left: 5rem;
+}
+
+.hd1{
+    font-size: medium;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.9rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 35rem;
+    height: 100%;
+    max-height: 15rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 25rem;
+    background-color: rgb(252, 246, 246);
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 5rem;
+}
+
+.hd2{
+    font-size: medium;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.9rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 25rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 5rem;
+}
+
+.hd3{
+    font-size: medium;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.9rem;
+}
+}
+
+@media (width:768px) {
+     /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 0.75rem;
+    font-size: 1.1rem;
+    margin-left: 0rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.75rem;
+    margin-left: 10rem;
+    color: rgb(7, 212, 212);
+    margin-top: 1rem;
+}
+
+.li2{
+    margin-left: 2rem;
+}
+
+.li3{
+    margin-left: 2rem;
+}
+
+.li4{
+    margin-left: 2rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 16.5rem;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 20rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+.hd1{
+    font-size: large;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 1rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 20rem;
+    height: 100%;
+    max-height: 13rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 23rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+.hd2{
+    font-size: large;
+}
+
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 1rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 20rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 2.6rem;
+}
+
+.hd3{
+    font-size: large;
+}
+
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 1rem;
+}
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+     /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 2rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    margin-left: 0rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    /* float: right; */
+    list-style-type: none;
+    margin-top: 1.44rem;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.6rem;
+    margin-left: 28rem;
+    color: rgb(7, 212, 212);
+    margin-top: 0.62rem;
+}
+
+.li2{
+    margin-left: 3rem;
+}
+
+.li3{
+    margin-left: 3rem;
+}
+
+.li4{
+    margin-left: 3rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 13rem;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 7rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 13rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.6rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 20rem;
+    height: 100%;
+    max-height: 9rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 20rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.65rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 16rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-right: 2.5rem;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.65rem;
+}
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    margin-left: -3rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 1.44rem;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 40rem;
+    color: rgb(7, 212, 212);
+    margin-top: 1rem;
+}
+
+.li2{
+    margin-left: 3rem;
+}
+
+.li3{
+    margin-left: 3rem;
+}
+
+.li4{
+    margin-left: 3rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 17rem;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 18rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.844rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 25rem;
+    height: 100%;
+    max-height: 10.5rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 25rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.844rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 20rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-right: 3rem;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.844rem;
+}
+}
+
+@media (min-width:1281px) {
+    /* applying effects for header */
+.header{
+    background-color: rgb(172, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;
+    justify-content: center;
+}
+
+/* applying font family for heading h5*/
+h5{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* applying flex for ol,li menu */
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    list-style-type: none;
+    margin-top: 1.44rem;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 0.7rem;
+    margin-left: 59rem;
+    color: rgb(7, 212, 212);
+    margin-top: 1rem;
+}
+
+.li2{
+    margin-left: 3rem;
+}
+
+.li3{
+    margin-left: 3rem;
+}
+
+.li4{
+    margin-left: 3rem;
+}
+
+/* applying effects for middle content */
+/* applying background color */
+.middle{
+    background-color: rgb(7, 212, 212);
+    height: 17rem;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+/* applying effects for image in middle content */
+.image1{
+    width: 100%;
+    max-width: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+/* applying effects for heading and para in mid content */
+.h1{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.para{
+    font-family: 'M PLUS 2', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* applying effects for lst content flex boxes footer */
+/* flex boxes - box 1 */
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* applying effects for box1  */
+.box1{
+    width: 18rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-left: 3rem;
+}
+
+/* applying font size for para in box1 */
+.paragraph1{
+    font-size: 0.844rem;
+} 
+
+/* applying effects for image in box2 */
+.image2{
+    width: 100%;
+    max-width: 25rem;
+    height: 100%;
+    max-height: 10.5rem;
+}
+
+/* applying effects for box2  */
+.box2{
+    width: 25rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+}
+
+/* applying font size and family for para in box1 */
+.paragraph2{
+    font-size: 0.844rem;
+}
+
+/* applying effects for box3  */
+.box3{
+    width: 20rem;
+    background-color: white;
+    font-family: 'M PLUS 2', sans-serif;
+    color: rgb(7, 7, 85);
+    margin-right: 3rem;
+}
+
+/* applying font size and family for para in box1 */
+.paragraph3{
+    font-size: 0.844rem;
+}
+}
+

@@ -1,0 +1,38 @@
+.one{
+    color: rgb(184, 3, 3);
+    display: inline;
+    margin-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    display: inline;
+    padding-left: 10px;
+}
+
+span{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+h1{
+    padding-bottom: 30px;
+    font-family: fantasy;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex{
+    display: flex;
+}

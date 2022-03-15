@@ -1,0 +1,104 @@
+.profilepic1,.profilepic2,.profilepic3{
+    border-radius: 50%;
+    width: 120px;
+}
+
+.profile1{
+    margin-top: 12rem;
+    position: relative;
+    left: 15em;
+    width: 250px;
+    height: 380px;
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(240, 154, 182) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+}
+
+.profile2{
+    margin-top: -24.4rem;
+    position: absolute;
+    left: 41em;
+    width: 250px;
+    height: 380px;
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(240, 154, 182) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+}
+
+.profile3{
+    margin-top: -24.4rem;
+    position: relative;
+    left: 65em;
+    width: 250px;
+    height: 380px;
+    text-align: center;
+    padding: 5px;
+    background-color:rgb(240, 154, 182) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px;
+}
+
+h2{
+    color: rgb(247, 211, 157);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.fblogo1{
+    width: 75px;
+    position: absolute;
+    top: 23rem;
+    left: 6.1rem;
+}
+
+.inlogo1{
+    width: 45px;
+    position: absolute;
+    top: -1.2em;
+    left: 11.8rem;
+}
+
+.fblogo2{
+    width: 75px;
+    position: absolute;
+    top: 23rem;
+    left: 6.1rem;
+}
+
+.inlogo2{
+    width: 45px;
+    position: absolute;
+    top: -1.2em;
+    left: 11.8rem;
+}
+
+.fblogo3{
+    width: 75px;
+    position: absolute;
+    top: 23rem;
+    left: 6.1rem;
+}
+
+.inlogo3{
+    width: 40px;
+    position: absolute;
+    top: -1.2em;
+    left: 11.8rem;
+}
+
+body{
+    background-color: rgb(241, 107, 107);
+}

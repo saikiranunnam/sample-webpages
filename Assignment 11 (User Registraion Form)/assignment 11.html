@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./assignment 11.css">
+</head>
+<body>
+    <h2> <u> USER REGISTRATION FORM </u> </h2>
+    <h5>Fields marked * are required.</h5>
+    <!--User registration form-->
+    <form>
+      <fieldset>
+          <legend>Register Here</legend>
+        <!--Field email-->
+        <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" autocomplete="off">
+        </div>
+        <!--Field password-->
+        <div>
+            <label for="password">Password*</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>    
+            <label for="retype password">Retype password*</label>
+            <input type="password" name="retype password" id="retype password">
+        </div>
+        <!--Field input-->
+        <div>
+            <label for="first name">First Name*</label>
+            <input type="text" name="first name" id="first name" placeholder="Enter First Name" autocomplete="off">
+        </div>
+        <div>
+            <label for="last name">Last Name*</label>
+            <input type="text" name="last name" id="last name" placeholder="Enter Last Name" autocomplete="off">
+        </div>
+        <!--Field phone number -->
+        <div>
+            <label for="ph number">Phone Number*</label>
+            <input type="number" name="ph number" id="ph number" autocomplete="off">
+        </div>
+        <!--Field text area address-->
+        <div>
+            <label for="address">Address*</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        </div>
+        <!--Field town-->
+        <div>
+            <label for="town">Town</label>
+            <input type="text" name="town" id="town" autocomplete="off">
+        </div>
+        <!--Field select region-->
+        <div>
+            <label for="region">Region*</label>
+            <select name="region" id="region">
+                <option value="town">Ranga Reddy</option>
+                <option value="town">LB Nagar</option>
+                <option value="town">Kothapet</option>
+                <option value="town">Sanga Reddy</option>
+            </select>
+        </div>
+        <!--Field number zip code-->
+        <div>
+            <label for="zip">Postcode/Zip*</label>
+            <input type="number" name="zip" id="zip" autocomplete="off">
+        </div>
+        <!--Field slect country drop down-->
+        <div>
+            <label for="country">Country*</label>
+            <select name="country" id="country">
+                <option value="country">India</option>
+                <option value="country">USA</option>
+                <option value="country">UK</option>
+                <option value="country">England</option>
+            </select>
+        </div>
+        <button>Register</button>
+       </fieldset>  
+    </form>
+
+</body>
+</html>

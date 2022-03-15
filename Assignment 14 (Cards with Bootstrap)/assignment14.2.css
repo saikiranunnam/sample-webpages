@@ -1,0 +1,62 @@
+.cone{
+    width: 900px;
+}
+
+.ctwo{
+    width: 435px;
+}
+
+.cthree{
+    width: 435px;
+    margin-left: -12rem;
+}
+
+i{
+    color: silver;
+    margin-right: 0.5rem;
+    margin-top: -1rem;
+}
+
+img{
+    height: 12.7rem;
+}
+
+.one{
+    font-size:small;
+    margin-left: -0.6rem;
+}
+
+.two{
+    height: 7rem;
+}
+
+.three{
+    height: 7rem;
+}
+
+.full{
+    color: gold;
+    width: 1px;
+    height: 1px;
+}
+
+.half{
+    color:silver;
+    width: 1px;
+    height: 1px;
+}
+
+.rating{
+    display: inline;
+    margin-left: 0.7rem;
+}
+
+.review{
+    font-size: smaller;
+    color: silver;
+}
+
+.para{
+    font-size: small;
+    color: silver;
+}

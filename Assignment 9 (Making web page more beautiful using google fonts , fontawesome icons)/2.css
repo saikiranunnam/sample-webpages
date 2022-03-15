@@ -1,0 +1,65 @@
+.parent1{
+    background-color: white;
+    max-width: 20rem;
+    max-height: 24rem;
+    box-shadow: 0px 0px 5px black; 
+    padding: 0.1em;
+}
+
+.parent2{
+    background-color: white;
+    max-width: 18rem;
+    max-height: 21.5rem;
+    box-shadow: 0px 0px 5px black; 
+    padding-bottom: 50px;
+}
+
+.parent3{
+    background-color: white;
+    max-width: 16rem;
+    max-height: 21rem;
+    box-shadow: 0px 0px 5px black; 
+    padding-bottom: 50px;
+}
+
+#one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+h5{
+    text-align: center;
+}
+
+h5{
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    background-color: grey;
+}
+
+#box,#box1{
+    margin-top: 3px;
+}
+
+p,h4{
+    margin-left: 30px;
+}
+h4{
+    font-family: 'Estonia', cursive;
+    font-size: 1.2rem;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}

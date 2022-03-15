@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1522865080725-2a9ea1fcb94e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNTYwNjEwfHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+#one{
+    color: white;
+    display: inline;
+    border: 2px solid white;
+    margin-left: 590px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#two{
+    color: white;
+    display: inline;
+    border: 2px solid white;
+    margin-left: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
